@@ -98,7 +98,7 @@ export default function Footer({ id }) {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-500 text-center sm:text-left">
-            &copy; {new Date().getFullYear()} ShopEase. All rights reserved. Made as a Beginner MERN Stack Portfolio Project.
+            &copy; {new Date().getFullYear()} ShopEase. All rights reserved by DIKSHA RAI
           </p>
           <div className="flex gap-4">
             <span className="text-xs text-indigo-400 font-semibold bg-indigo-950/50 px-3 py-1 rounded-full border border-indigo-900/30">
