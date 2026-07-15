@@ -187,7 +187,7 @@ export default function ProductDetails({ id, onAddToCart }) {
                   ) : (
                     <>
                       <ShoppingBag className="w-5 h-5" />
-                      <span>Add to Cart — ${(price * quantity).toFixed(2)}</span>
+<span>Add to Cart — ₹{(price * quantity).toFixed(2)}</span>
                     </>
                   )}
                 </Button>
