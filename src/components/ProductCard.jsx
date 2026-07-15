@@ -40,7 +40,9 @@ export default function ProductCard({ id, product, onAddToCart }) {
         <div className="mt-4 pt-4 border-t border-slate-50 flex items-center justify-between">
           <div className="flex flex-col">
             <span className="text-xs text-slate-400">Price</span>
-            <span className="text-lg font-bold text-slate-900">${price.toFixed(2)}</span>
+           <span className="text-lg font-bold text-slate-900">
+  ₹{price.toFixed(2)}
+</span>
           </div>
 
           <div className="flex items-center gap-1.5">
